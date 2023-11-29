@@ -40,7 +40,7 @@ export class MemberSpec extends MemberBase<MemberSpec, Namespace, ItemBase<Membe
 			// Different types shouldn't be joined with | in .d.ts, instead
 			// they should be converted to { TypeA: TypeA, TypeB: TypeB... }
 
-			console.log(spec);
+			// console.log(spec);
 		}
 	}
 
